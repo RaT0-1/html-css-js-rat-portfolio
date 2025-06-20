@@ -1,7 +1,5 @@
 name = "ratportfolio"
-type = "javascript"
-
-account_id = "42b24983639825aa5abf0a146cf7fe"
+account_id = "4eb249863986252a55abf0d1a46cf7fe"
 compatibility_date = "2025-06-20"
 
 [assets]
