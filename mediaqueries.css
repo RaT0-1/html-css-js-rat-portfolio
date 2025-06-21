@@ -28,8 +28,8 @@
     }
     .section_pic-containter img,
     .section__pic-container img {
-        width: 70px !important;
-        height: 70px !important;
+        width: 105px !important;   /* 50% bigger than 70px */
+        height: 105px !important;
         object-fit: cover;
         border-radius: 50%;
         display: block;
@@ -96,8 +96,8 @@
     }
     .section_pic-containter img,
     .section__pic-container img {
-        width: 48px !important;
-        height: 48px !important;
+        width: 72px !important;    /* 50% bigger than 48px */
+        height: 72px !important;
     }
     .details-container {
         padding: 0.6rem;
