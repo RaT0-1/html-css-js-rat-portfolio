@@ -19,11 +19,20 @@
     }
     .section_pic-containter,
     .section__pic-container {
-        width: 120px;
-        height: 120px;
+        width: auto;
+        height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 0 auto;
+    }
+    .section_pic-containter img,
+    .section__pic-container img {
+        width: 70px !important;
+        height: 70px !important;
+        object-fit: cover;
+        border-radius: 50%;
+        display: block;
         margin: 0 auto;
     }
     .title {
@@ -78,12 +87,17 @@
     }
     .section_pic-containter,
     .section__pic-container {
-        width: 70px;
-        height: 70px;
+        width: auto;
+        height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 0 auto;
+    }
+    .section_pic-containter img,
+    .section__pic-container img {
+        width: 48px !important;
+        height: 48px !important;
     }
     .details-container {
         padding: 0.6rem;
