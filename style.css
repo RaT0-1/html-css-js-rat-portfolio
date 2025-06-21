@@ -155,6 +155,13 @@ section {
 
 .section-container {
     display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center;    /* Center horizontally */
+    justify-content: center;/* Center vertically */
+    gap: 4rem;
+    height: 80%;
+    width: 100%;
+    margin: 0 auto;
 }
 
 /* PROFILE SECTION */
@@ -164,6 +171,7 @@ section {
     justify-content: center;
     gap: 5rem;
     height: 80vh;
+    position: relative;
 }
 
 .section_pic-containter {
@@ -266,6 +274,9 @@ section {
 }
 
 .about-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
 }
@@ -357,4 +368,9 @@ footer p {
     text-align: center;
     font-size: 1.2rem;
     color: rgb(85, 85, 85);
+}
+
+.text-container p {
+    color: #000;
+    font-size: 1.8rem;
 }
